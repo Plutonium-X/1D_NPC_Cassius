@@ -1,0 +1,48 @@
+@0  = ~Cassius NPC Mod (vyzaduje Throne Of Bhaal)~
+@1  = ~Nevypada to ze bys mel nainstalovan datadisk Throne Of Bhaal.~
+@2  = ~Cassius Greycloak se vrátil do Hlubiny a povyprávìl Khelbenovi Arunsunovi o všech jeho dobrodrustvích s Bhaalovım synem. Krátce nato Hlubinu opustil a pøemístnil se do Silverymoonu, kde zabával svou pøítelkyni Alustriel Støíbrorukou.
+
+Napsal mnoho poém a také pár her, ale nikdy nedopsal pøíbìh Bhaalova dítìte. Nemohl. Potom, co vidìl tolik krveprolití, nejradìji by na to všechno zapomnìl, kdyby mohl. Vdycky se snail pøed lidmi vystupovat a také vypadat jako veselı èlovìk, ale v jeho oèích se odráel jinı pøíbìh, pøíbìh muèené duše.
+
+Jak postupnì stárnul, jeho minulost z Calimshanu ho dostihla právì ve chvíli, kdy hrál ve své vlastní høe, Tamletovi, v pøíbìhu o tyranském králi. Hrál samotného tyrana, kterı mìl bıt ve høe pobodanı. Neuvìdomil si, e zabiják, kterı byl vyslán, aby ho zabil, zrovna hrál postavu, která mìla tyrana zabít. Teprve kdy ucítil, jak èepel proniká jeho hrudníkem, uvìdomil si, e to není hra. Jeho poslední slova byly "Bylo to zábavné dobrodruství, lásko". A pak zemøel.~
+@3  = ~Cassius~
+@4  = ~Co tì trápí?~ [CASS11]
+@5  = ~Skupinka dentlmenù~ [CASS03]
+@6  = ~Smìrování téhle party je ponìkud zavádìjící~ [CASS04]
+@7  = ~Zbohem. Doufám, e tì u nikdy neuvidím~ [CASS06]
+@8  = ~Zodpovìdnost~ [CASS07]
+@9  = ~Odpoèinek~ [CASS08]
+@10 = ~Znudìn~ [CASS09]
+@11 = ~Tvùj vtip znìl jak poklonkování~ [CASS19]
+@12 = ~Pøestaò s tím náøkem, devèe...~ [CASS18]
+@13 = ~Zranìn~ [CASS22]
+@14 = ~Auuhhh...ooowwhhh...~ [CASS23]
+@15 = ~Zajisté~ [CASS14]
+@16 = ~Jak porouèíš~ [CASS13]
+@17 = ~Kdy musíme~ [CASS02]
+@18 = ~Vìdel jsem to~ [CASS20]
+@19 = ~Neexistuje zlo, jenom hloupost~ [CASS16]
+@20 = ~Není zlo ani dobro, jenom šarmantnost a fádnost~ [CASS17]
+@21 = ~Pitomı~ [CASS10]
+@22 = ~Tak fádní~ [CASS15]
+@23 = ~Cassius je záhadnı bard, kterı o své minulosti moc nemluví. Je známo, e procestoval obrovskı kus, mimo jiné i Baldurovu Bránu, Hlubinu, Calimshan a nìkterá jiná mìsta, ale nikde se moc dlouho nezdrel. Vyhledává dobrodruství, aby mohl vyprávìt o velkıch pøíbìzích, které proil. Právì teï se zastavil v Amnu, aby zhromadil pro svùj velkı pøíbìh informace od dobrodruhù, kteøí tady procházejí. Povìsti hovoøí také o tom, e by to také mohl bıt agent Harfeníkù.~
+@24 = ~Better a coward then a dead man~ [CASS01]
+@25 = ~Ya loser die~ [CASS24]
+@26 = ~Pokovaná koená zbroj +4~
+@27 = ~Tohle koené brnìní patøí Cassiusovi, bardovi známému po celıch Øíších.
+
+VLASTNOSTI:
+
+Bonus: +15% k vìdení
+Obranné èíslo: 3
+Váha: 8
+Vyaduje: Síla 6
+Smí uívat pouze:
+  Cassius~
+@28 = ~Cassiusùv Pláš~
+@29 = ~Tenhle pláš patøí Cassiusovi. Byl mu nápomocen pøi jeho dobrodrustvích napøíè Øíšemi.
+
+VLASTNOSTI:
+
+Speciální schopnosti:
++20 ke kapsáøství~

@@ -1,0 +1,7 @@
+IF
+	Global("C#CassCreate","AR0704",0)
+THEN
+	RESPONSE #100
+		SetGlobal("C#CassCreate","AR0704",1)
+		CreateCreature("G#CASS09",[540.682],5)
+END

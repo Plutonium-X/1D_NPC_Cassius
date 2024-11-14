@@ -1,0 +1,48 @@
+@0    = ~Cassius NPC Mod (Requires Throne of Bhaal)~
+@1    = ~You do not appear to have TOB installed.~
+@2    = ~Cassius Greycloak went back to Waterdeep and told Khelben Arunsun of his adventures with the god child. He left Waterdeep shortly after his debriefing with Khelben and moved on to Silverymoon and entertained his friend Alustriel Silverhand.
+
+He wrote many poems and a few plays but he never could write down the full story of the Bhaal child. After seeing so much bloodshed he prefered to forget the whole issue if he could. He always tried to play the jovial character that he was to people but in his eyes told a different story, that of a tortured soul.
+
+As he grew older his past from Calimshan finally caught up to him when he was acting in his play, Tamlet, the story of a tyrant king. He played the tyrant king who was to be stabbed in the play. He did not realize that the assassin sent to kill him was playing the character who was to kill the tyrant king. He felt the blade pierce his chest and realized that it was for real and not an act. His last words were "It's been a fun adventure love" then he expired.~
+@3    = ~Cassius~
+@4    = ~Whats your worry~ [CASS11]
+@5    = ~Group of gentlemen~ [CASS03]
+@6    = ~This party's direction seems to be somewhat misguided~ [CASS04]
+@7    = ~Goodbye now. Hope to never see you again~ [CASS06]
+@8    = ~Responsibilty~ [CASS07]
+@9    = ~Rest~ [CASS08]
+@10   = ~Bored~ [CASS09]
+@11   = ~Wit~ [CASS19]
+@12   = ~Wench~ [CASS18]
+@13   = ~Injured~ [CASS22]
+@14   = ~Die~ [CASS23]
+@15   = ~Certainly~ [CASS14]
+@16   = ~As you command~ [CASS13]
+@17   = ~If we must~ [CASS02]
+@18   = ~I knew that~ [CASS20]
+@19   = ~Evil but stupidity~ [CASS16]
+@20   = ~Evil and Good~ [CASS17]
+@21   = ~Dumb~ [CASS10]
+@22   = ~So Tedious~ [CASS15]
+@23   = ~Cassius is a mysterious bard who does not say much on his past. What is known is he has traveled a great deal from Baldur's Gate, Waterdeep, Calimshan and other places never staying too long in one. He is always looking for adventure so he would be able to speak of the grand tales that he has encountered. He has recently stopped in Amn to gather information on tall tales from the adventurers that pass by there. Rumor has it he may be a agent of the Harpers.~
+@24   = ~Better a coward then a dead man~ [CASS01]
+@25   = ~Ya loser die~ [CASS24]
+@26   = ~Studded Leather +4~
+@27   = ~This leather armor belongs to Cassius the well known bard in the Realms.
+
+STATISTICS:
+
+Armor Class: 3
+Special: +15% Lore Ability
+Weight: 8
+Requires: 6 Strength
+Only Usable By:
+Cassius~
+@28   = ~Cassius' Cloak~
+@29   = ~This cloak belongs to Cassius. It has aided him in his adventures across the Realms.
+
+STATISTICS
+
+Special Abilities: 
++20 Pick Pocket~

@@ -1,0 +1,48 @@
+@0    = ~Cassius NPC Mod (Richiede Throne of Bhaal)~
+@1    = ~Non sembri avere TOB installato.~
+@2    = ~Cassius Greycloak é ritornato a Waterdeep ed ha raccontato la sue avventure con il figlio del dio a Khelben Arunsun. Ha lasciato Waterdeep subito dopo l'incontro con Khelben e si é spostato poi a Silverymoon dove si è trattenuto con il suoi amico Alustriel Silverhand.
+
+Ha scritto molti poemi e diverse canzoni ma non é mai riuscito a finire di scrivere la storia completa del figlio di Bhaal. Dopo aver visto molti massacri ha preferito dimenticare completamente la questione più che ha potuto. Cercava sempre di mostrarsi agli altri come una persona gioviale, ma dal suo sguardo, invece, trapelava una storia differente, era un'anima tormentata.
+
+Quando divenne anziano, passò per Calimshan e questo lo condannò alla sua morte. Desiderava recitare in una delle sue stesse opere, che si intitolava Tamlet, la storia di un re tiranno. Volle recitare proprio la parte del re tiranno che, alla fine del dramma, sarebbe stato pugnalato. Non si rese conto che, chi recitava la parte di colui il quale doveva uccidere il re tiranno, era un assassino inviato per ucciderlo. Nel momento in cui sentì che la lama perforava il suo torace realizzò che non si trattava di una recita, ma della realtà. Le sue ultime parole furono "E' stata un'avventura divertente, tesoro" poi morì.~
+@3    = ~Cassius~
+@4    = ~Qualcosa ti preoccupa?~ [CASS11]
+@5    = ~Questo é un gruppo di prodi~ [CASS03]
+@6    = ~La direzione di questo gruppo sembra essere andata un po' oltre~ [CASS04]
+@7    = ~Ti dico addio e subito. Spero di non rivederti più~ [CASS06]
+@8    = ~Mi prendo questa responsabilità sapendo di essere la persona più adatta~ [CASS07]
+@9    = ~Credo sia meglio fermarsi e riposare~ [CASS08]
+@10   = ~Che noia~ [CASS09]
+@11   = ~Ci vuole l'astuzia per vincere~ [CASS19]
+@12   = ~Spregevole~ [CASS18]
+@13   = ~Ferito~ [CASS22]
+@14   = ~Morte~ [CASS23]
+@15   = ~Certamente~ [CASS14]
+@16   = ~Ai tuoi comandi~ [CASS13]
+@17   = ~Se dobbiamo~ [CASS02]
+@18   = ~Lo sapevo~ [CASS20]
+@19   = ~Non esiste il malvagio ma lo stupido~ [CASS16]
+@20   = ~Il Male e il Bene non esiste, esiste solo l'interessante e il seccante~ [CASS17]
+@21   = ~Non ho parole~ [CASS10]
+@22   = ~E' così noioso fare certe cose~ [CASS15]
+@23   = ~Cassius é un bardo alquanto misterioso che non rivela molto del suo passato. Quello che ti dice è che ha viaggiato molto, è stato a Baldur's Gate, a Waterdeep, a Calimshan ed in molti altri luoghi, ma non è stato mai a lungo nello steso posto. E' sempre in cerca di avventure e in questo modo può raccontare le grandi cose che vede. Recentemente si sta trattenendo nell'Amn per raccogliere informazioni e andare all'avventura, per poi raccontare le storie relative a questi luoghi. Voci in giro sostengono che potrebbe essere una spia degli Arpisti.~
+@24   = ~Meglio un codardo che un uomo morto~ [CASS01]
+@25   = ~La morte non è mai la benvenuta~ [CASS24]
+@26   = ~Corazza di Cuoio Borchiata +4~
+@27   = ~Questa corazza di cuoio appartiene a Cassius il famosissimo bardo dei Reami.
+
+STATISTICHE:
+
+Classe Armatura: 3
+Speciale: +15% all'Abilità di Conoscenza
+Peso: 8
+Richiede: 6 alla Forza
+Utilizzabile solo da:
+Cassius~
+@28   = ~Mantello di Cassius~
+@29   = ~Questo mantello appartiene a Cassius. Lo ha aiutato sempre nelle sue avventure tra i Reami.
+
+STATISTICHE
+
+Abilità Speciale: 
++20 Svuotare Tasche~

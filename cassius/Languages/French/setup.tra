@@ -1,0 +1,89 @@
+@0    = ~Mod PNJ Cassius (necessite Throne of Bhaal)~
+@1    = ~Il semblerait que ToB ne soit pas installe.~
+@2    = ~Cassius Capegrise rentra à Eauprofonde et raconta à Khelben Arunsun Bâton Noir ses aventures avec l'enfant de Bhaal. Il quitta Eauprofonde peu après s'être entretenu avec Khelben et partit pour Lunargent où il divertit son amie Alustriel Maindargent.
+
+Il écrivit un grand nombre de poèmes ainsi que quelques pièces mais il ne parvint jamais à écrire l'histoire complète de l'enfant de Bhaal. Après avoir assisté à tant de carnages, il aurait préféré oublier toute cette histoire, s'il en avait été capable. Il tenta toujours de demeurer le personnage jovial qu'il avait été pour les autres, du moins en apparence, mais ses yeux révélaient une autre histoire, celle d'une âme torturée.
+
+Comme il vieillissait, son passé calimshite finit par le rattraper, alors qu'il jouait dans une pièce de sa composition, Tamlet, relatant l'histoire d'un roi tyrannique. Il jouait justement ce souverain, lequel devait être poignardé au cours de la pièce. Il ne se rendit pas compte que l'assassin envoyé pour le tuer jouait le rôle de celui qui devait poignarder le roi. C'est au moment où la lame transperça sa poitrine qu'il réalisa que c'était réel et non pas feint. Ses derniers mots furent "C'était une belle aventure, mon chéri" puis il mourut.~
+@3    = ~Cassius~
+@4    = ~Quel est votre souci ?~ [CASS11]
+@5    = ~Je suis heureux de m'associer à un groupe tel que le vôtre.~ [CASS03]
+@6    = ~Le groupe semble prendre un mauvais chemin.~ [CASS04]
+@7    = ~Au revoir, et à jamais j'espère.~ [CASS06]
+@8    = ~J'en prends la responsabilité car je suis la personne la mieux qualifiée.~ [CASS07]
+@9    = ~Il serait bon que nous fassions une halte pour nous reposer.~ [CASS08]
+@10   = ~Si j'avais voulu m'enterrer vivant, je serais entré dans les ordres.~ [CASS09]
+@11   = ~Tu manques *un peu* d'esprit.~ [CASS19]
+@12   = ~Arrête de pleurnicher, gamine !~ [CASS18]
+@13   = ~Aïe.~ [CASS22]
+@14   = ~Argh.~ [CASS23]
+@15   = ~Sans problème.~ [CASS14]
+@16   = ~A vos ordres.~ [CASS13]
+@17   = ~S'il le faut.~ [CASS02]
+@18   = ~Je le savais.~ [CASS20]
+@19   = ~La bêtise est le pire des maux.~ [CASS16]
+@20   = ~Le bien et le mal n'existent pas ; seules s'opposent les forces du charme et de l'ennui.~ [CASS17]
+@21   = ~Que vous êtes ennuyeux.~ [CASS10]
+@22   = ~Tout cela est tellement assommant.~ [CASS15]
+@23   = ~Cassius est un barde mystérieux qui parle peu de son passé. Ce qui est sûr c'est qu'il a énormément voyagé de la Porte de Baldur à Eauprofonde, en passant par Calimshan et d'autres contrées, sans jamais rester longtemps au même endroit. Il est toujours à la recherche d'aventures afin de pouvoir raconter ensuite les hauts faits qu'il a observés. Récemment, il s'est arrêté en Amn afin de recueillir les histoires des aventuriers qui passent par là. Les rumeurs disent qu'il pourrait être un agent des Ménestrels.~
+@24   = ~Mieux vaut être lâche et en vie que courageux et mort.~ [CASS01]
+@25   = ~Pas de bol !~ [CASS24]
+@26   = ~Armure de cuir clouté +4~
+@27   = ~Cette armure de cuir clouté appartient à Cassius, le célèbre barde des Royaumes.
+
+PARAMETRES :
+
+Classe d'Armure : 3
+Spécial : +15% en Connaissances
+Poids : 8
+Force nécessaire : 6
+Utilisable uniquement par :
+ Cassius~
+@28   = ~Cape de Cassius~
+@29   = ~Cette cape appartient à Cassius. Elle l'a aidé dans ses aventures à travers les Royaumes.
+
+PARAMETRES :
+
+Capacité Spéciale :
+  Bonus de 20 % en Vol à la tire~
+
+
+// WeiDU prompts
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, dem[A]nder pour chacun ? "
+
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["

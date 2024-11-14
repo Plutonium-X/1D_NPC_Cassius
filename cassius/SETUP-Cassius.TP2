@@ -1,0 +1,169 @@
+BACKUP ~cassius\backup~
+AUTHOR ~http://www.chosenofmystra.com~
+
+VERSION ~v1.06~
+
+ALWAYS
+ ACTION_DEFINE_ARRAY tra_reload BEGIN setup END
+ LAF HANDLE_CHARSETS
+ INT_VAR
+ infer_charset = 1
+ STR_VAR
+ tra_path = EVAL ~%MOD_FOLDER%\Languages~
+ reload_array = tra_reload
+ END
+ END
+
+README ~cassius\cassius-readme.txt~
+
+AUTO_TRA ~cassius\Languages\%s~
+
+LANGUAGE ~English~
+         ~English~
+         ~cassius\Languages\English\setup.tra~
+
+LANGUAGE ~Deutsch (von Drogan Di'Umptu)~
+         ~German~
+         ~cassius\Languages\German\setup.tra~	
+
+LANGUAGE ~Czech (Prelozil Valiant - BWL, korekce Razfallow - SIGIL)~
+         ~Czech~
+         ~cassius\Languages\Czech\setup.tra~	
+
+LANGUAGE ~Italian (translated by Ilot)~
+         ~Italian~
+         ~cassius\Languages\Italian\setup.tra~	
+         
+LANGUAGE ~French (translated by Fouinto (of the d'Oghmatiques))~
+         ~French~
+         ~cassius\Languages\French\setup.tra~
+
+BEGIN @0
+REQUIRE_FILE ~Data\25Dialog.bif~ @1
+
+// Epilogue stuff
+
+COPY ~cassius\2da\g#cass.2da~ ~override\g#cass.2da~
+  REPLACE ~99999~ @2
+
+EXTEND_TOP ~ar6200.bcs~ ~cassius\scripts\ar6200.baf~
+
+// Copying .CRE files
+
+COMPILE ~cassius\dlg\G#CAS25.D~ USING ~cassius\Languages\%s\G#CAS25.tra~
+COMPILE ~cassius\dlg\G#CASS.D~ USING ~cassius\Languages\%s\G#CASS.tra~
+COMPILE ~cassius\dlg\OTHER.D~ USING ~cassius\Languages\%s\OTHER.tra~
+
+COPY ~cassius\creat\G#CASS25.CRE~  ~override\G#CASS25.CRE~       
+  SAY NAME1 @3 
+  SAY NAME2 @3 
+  SAY 0xa4 @4  
+  SAY 0xac @5  
+  SAY 0xb0 @6  
+  SAY 0xb4 @6  
+  SAY 0xb8 @7  
+  SAY 0xbc @8  
+  SAY 0xc0 @9  
+  SAY 0xc4 @10  
+  SAY 0xc8 @11  
+  SAY 0xcc @12  
+  SAY 0xdc @11  
+  SAY 0xec @13  
+  SAY 0xf0 @14  
+  SAY 0x10c @15  
+  SAY 0x110 @16  
+  SAY 0x114 @17  
+  SAY 0x124 @18  
+  SAY 0x1a0 @19  
+  SAY 0x1a4 @20  
+  SAY 0x1ac @21  
+  SAY 0x1b8 @22  
+  SAY BIO	@23 
+
+COPY ~cassius\creat\G#CASS09.CRE~  ~override\G#CASS09.CRE~       
+  SAY NAME1 @3 
+  SAY NAME2 @3 
+  SAY 0xa4 @4  
+  SAY 0xa8 @24  
+  SAY 0xac @5  
+  SAY 0xb0 @6  
+  SAY 0xb4 @6  
+  SAY 0xb8 @7  
+  SAY 0xbc @8  
+  SAY 0xc0 @9  
+  SAY 0xc4 @10  
+  SAY 0xc8 @11  
+  SAY 0xcc @12  
+  SAY 0xdc @11  
+  SAY 0xec @13  
+  SAY 0xf0 @14  
+  SAY 0x10c @15  
+  SAY 0x110 @16  
+  SAY 0x114 @17  
+  SAY 0x124 @18  
+  SAY 0x178 @25  
+  SAY 0x1a0 @19  
+  SAY 0x1a4 @20  
+  SAY 0x1ac @21  
+  SAY 0x1b8 @22  
+  SAY BIO 	@23 
+
+COPY ~cassius\sounds~ ~override~
+
+ACTION_IF GAME_IS ~TOB BGT~ THEN BEGIN
+COPY ~cassius\portraits~ ~override~
+END
+
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
+COPY ~cassius\portraitsEE~ ~override~
+END
+
+
+// Copy items
+
+COPY ~cassius\items\G#LEAT01.itm~   ~override\G#LEAT01.itm~       
+  SAY NAME2 @26 
+  SAY DESC @27 
+
+COPY ~cassius\items\G#CLCK01.itm~   ~override\G#CLCK01.itm~       
+  SAY NAME2 @28 
+  SAY DESC @29 
+
+// Add NPC dialog references
+
+APPEND ~pdialog.2da~ // SOA append
+~G#CASS         G#CASSP               G#CASSJ              G#CASSD~
+UNLESS ~G#CASS~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~pdialog.2da~ // TOB append
+~G#CASS         G#CASSP               G#CASSJ             G#CAS25D         G#CAS25P           G#CAS25J                 G#CAS25D                 G#CAS25~
+UNLESS ~G#CASS~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+APPEND ~interdia.2da~ // SOA append
+~G#CASS         BG#CASS    ~
+UNLESS ~G#CASS~ // somehow we are already there, skip it
+UNLESS ~25POST~ // means TOB is installed, skip it
+
+APPEND ~interdia.2da~ // TOB append
+~G#CASS         BG#CASS          BG#CAS25     ~
+UNLESS ~G#CASS~ // we are already there, skip it
+IF     ~25POST~ // requires TOB to be installed
+
+// Dialog to compile
+
+COMPILE
+  ~cassius\dlg\g#cass.d~
+
+COMPILE
+  ~cassius\dlg\other.d~
+
+COMPILE
+  ~cassius\dlg\g#cas25.d~
+
+// Compile and append scripts
+
+EXTEND_TOP ~AR0704.bcs~ ~cassius\scripts\AR0704.baf~
+
+COMPILE ~cassius\scripts\g#cass25.baf~

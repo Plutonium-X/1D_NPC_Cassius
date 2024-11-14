@@ -1,0 +1,15 @@
+IF
+    Global("StartEndBios","AR6200",1)
+    InParty("G#CASS")
+    Global("G#cassiusBio","GLOBAL",0)
+THEN
+    RESPONSE #100
+        SetGlobal("G#cassiusBio","GLOBAL",1)
+        TextScreen("G#CASS")
+        SetGlobal("G#cassiusBio","GLOBAL",1)
+        SmallWait(1)
+        SetGlobal("G#cassiusBio","GLOBAL",1)
+        Continue()
+        SetGlobal("G#cassiusBio","GLOBAL",1)
+END
+
