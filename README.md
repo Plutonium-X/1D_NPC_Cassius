@@ -6,4 +6,3 @@ Particularités :
 - Il n'a quasiment aucun dialogue, si ce n'est quelques banters.
 - Il a des interjections (quand vous cliquez dessus, le mettez en première place, etc) personnalisés.
 - Il vient avec 2 objets magiques personnels mineurs.
-- À part ça rien d'autre : ultra classique.
